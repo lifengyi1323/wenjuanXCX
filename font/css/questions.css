@@ -1,0 +1,91 @@
+body{
+    background-color: #f3f3f3;
+}
+
+.container{
+    padding: 30px 0 85px;
+    margin-left: calc(100vw - 100%);
+}
+.container>div[class|=container]{
+    margin: 0 auto;
+}
+
+.container-survey{
+    padding: 60px 0 30px;
+    width: 1000px!important;
+    min-height: 400px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 2px 6px 0 rgba(0,0,0,.06);
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,.06);
+    border-radius: 1px;
+    display: block;
+}
+
+.comp-survey-group{
+    width: 800px;
+    margin: auto;
+}
+
+.group-header{
+    padding: 0 0 30px;
+    border-bottom: 1px solid #ddd;
+}
+
+.group-header .title{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    word-break: break-word;
+}
+
+.comp-question{
+    margin-top: 30px;
+}
+
+.rich-text{
+    word-break: break-all;
+}
+.question-header .title{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5em;
+}
+
+.question-content{
+    margin-top: 10px;
+}
+.comp-question-score {
+    margin-top: 20px;
+}
+.comp-question-score .score-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: #999;
+}
+.survey-submit{
+    margin-top: 60px;
+    text-align: center;
+}
+.btn-submit{
+    position: relative;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    touch-action: manipulation;
+    cursor: pointer;
+    white-space: nowrap;
+    height: 36px;
+    padding: 6px 24px;
+    font-size: 14px;
+    border-radius: 2px;
+    user-select: none;
+    transition: all .3s cubic-bezier(.645,.045,.355,1);
+    color: #fff;
+    background-color: #118bfb;
+    border-color: #118bfb;
+}

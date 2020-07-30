@@ -1,0 +1,225 @@
+.ban-box{
+    width: 310px;
+    height: 280px;
+    padding: 10px;
+    position: absolute;
+    top: 120px;
+    right: 100px;
+    z-index: 1;
+    background-color: #ffffff;
+}
+.ban-box a.a-reg{
+    color: #fff;
+    font-size: 18px;
+    line-height: 40px;
+    width: 276px;
+    height: 40px;
+    background: #ef7d00;
+    margin: 65px auto 0;
+}
+
+.ban-box a.a-reg:hover{
+    text-decoration: none;
+    color: #ef7d00;
+    background: #ddd;
+}
+
+.desc {
+    font-size: 16px;
+    color: #353535;
+    width: 580px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 20px
+}
+
+.mod_inner_title {
+    font-size: 16px;
+    color: #353535;
+    width: 580px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 120px;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto
+}
+
+.mod_box_web {
+    padding: 70px 0;
+    text-align: center;
+    border-bottom: 1px solid #e7e7eb
+}
+
+.mod_box_web:last-child {
+    border: 0
+}
+
+.mod_box_web .mod_title {
+    font-size: 30px;
+    color: #262626;
+    font-weight: normal
+}
+
+.advantage .advantage_list {
+    margin-top: 40px;
+    font-size: 0
+}
+
+.advantage .advantage_item {
+    display: inline-block;
+    width: 220px;
+    height: 220px;
+    position: relative;
+    margin-right: 26px
+}
+
+.advantage .advantage_item:last-child {
+    margin-right: 0
+}
+
+.advantage .advantage_item:hover .item_hover_box {
+    opacity: 1
+}
+
+.advantage .item_box {
+    width: 220px;
+    height: 220px;
+    margin-top: 0;
+    background-color: #f8f8f8;
+    text-align: center;
+    box-sizing: border-box
+}
+
+.advantage .item_hover_box {
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    top: 0;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+    opacity: 0;
+    transition: opacity .5s;
+    -moz-transition: opacity .5s;
+    -webkit-transition: opacity .5s;
+    -o-transition: opacity .5s
+}
+
+.advantage .item_hover_box .item_link_select {
+    display: block;
+    box-sizing: border-box;
+    width: 180px;
+    height: 40px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    line-height: 40px;
+    background: #ef7d00;
+    margin: 48px auto 0;
+}
+
+.advantage .item_box .item_link_block {
+    display: block;
+    padding: 97px 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    text-decoration: none
+}
+
+.advantage .item_hover_box .item_link_block {
+    display: block;
+    padding: 97px 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.mod_box_web.flow .flow_list {
+    width: 670px;
+    margin: 0 auto;
+    margin-top: 40px
+}
+
+.mod_box_web.flow .flow_item {
+    position: relative;
+    padding-left: 62px;
+    height: 128px
+}
+
+.mod_box_web.flow .flow_item:last-child {
+    height: 98px
+}
+
+.mod_box_web.flow .flow_item .item_before {
+    border: 2px solid #d8d8d8;
+    border-radius: 50%;
+    width: 46px;
+    height: 46px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    text-align: center;
+    line-height: 46px;
+    font-size: 16px
+}
+
+.mod_box_web.flow .flow_item .item_before:before {
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 16px
+}
+
+.mod_box_web.flow .flow_item p {
+    text-align: left
+}
+
+.mod_box_web.flow .flow_item .item_title {
+    font-size: 18px;
+    color: #262626
+}
+
+.mod_box_web.flow .flow_item .item_desc {
+    font-size: 14px;
+    color: #8d8d8d;
+    line-height: 20px
+}
+
+.mod_box_web.flow .item_after {
+    width: 4px;
+    height: 4px;
+    border-radius: 2px;
+    position: absolute;
+    left: 21px;
+    top: 82px;
+    background-color: #d8d8d8
+}
+
+.mod_box_web.flow .item_after:before, .mod_box_web.flow .item_after:after {
+    content: "";
+    display: block;
+    width: 4px;
+    height: 4px;
+    border-radius: 2px;
+    position: absolute;
+    background-color: #d8d8d8
+}
+
+.mod_box_web.flow .item_after:before {
+    top: -10px
+}
+
+.mod_box_web.flow .item_after:after {
+    bottom: -10px
+}
+
+.lbt {
+    z-index: 0;
+}

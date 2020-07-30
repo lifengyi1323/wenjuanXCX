@@ -1,0 +1,255 @@
+*{margin:0;padding:0;}
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+body {
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.6
+}
+input, textarea, button, a {
+    outline: 0
+}
+ul, ol {
+    padding-left: 0;
+    list-style-type: none
+}
+
+a img, fieldset {
+    border: 0
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+    display: block
+}
+
+audio, canvas, video {
+    display: inline-block
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0
+}
+
+[hidden] {
+    display: none
+}
+
+figure {
+    margin: 0
+}
+
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0
+}
+
+button, select {
+    text-transform: none
+}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    cursor: pointer;
+    -webkit-appearance: button
+}
+
+button[disabled], html input[disabled] {
+    cursor: default
+}
+
+input[type="checkbox"], input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0
+}
+
+input[type="search"] {
+    box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -webkit-appearance: textfield;
+    -webkit-box-sizing: content-box
+}
+
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none
+}
+
+button::-moz-focus-inner, input::-moz-focus-inner {
+    border: 0;
+    padding: 0
+}
+
+textarea {
+    overflow: auto;
+    vertical-align: top;
+    resize: none
+}
+
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+    box-shadow: inset 0 0 0 1000px #fff;
+    -moz-box-shadow: inset 0 0 0 1000px #fff;
+    -webkit-box-shadow: inset 0 0 0 1000px #fff
+}
+
+select {
+    border-radius: 0;
+    -webkit-border-radius: 0
+}
+li{
+    list-style-type:none;
+}
+
+img{
+    border:0 none;
+}
+
+a:link, a:visited{
+    color:#000;
+    text-decoration: none;
+}
+a:hover{
+    color:#F60;
+    text-decoration: none;
+}
+
+.head{
+    height: 60px;
+    width: 100%;
+    border-bottom: 1px solid #e7ebed;
+}
+
+.logo{
+    width: 403px;
+    height: 66px;
+    margin-top: 10px;
+}
+
+/* 浮动定义 */
+.FL{
+    float:left;
+}
+.FR{
+    float:right;
+}
+.fixed{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    color: #ffffffff;
+}
+
+/*  文本对齐方式  */
+.t-l{text-align:left;}
+.t-c{text-align:center;}
+.t-r{text-align:right;}
+
+.block {display:block;}
+
+/*
+ * 圆角定义
+*/
+.circle{
+    -moz-border-radius: 5px; /* Firefox */
+    -webkit-border-radius: 5px; /* Safari 和 Chrome */
+    border-radius: 5px; /* Opera 10.5+, 以及使用了IE-CSS3的IE浏览器 */
+}
+.clear{
+    clear:both;
+    height:0px;
+    width:100%;
+    font-size:1px;
+    line-height:0px;
+    visibility:hidden;
+    overflow:hidden;
+}
+
+.swiper-container{
+    height: 320px;
+    overflow: hidden;
+}
+.swiper-img{
+    width: 100%;
+    height: 100%;
+}
+.user-box {
+    width: 365px;
+    padding-bottom: 15px;
+    background: #fff;
+    position: absolute;
+    overflow: hidden;
+    box-shadow: 2px 2px 3px #8A8A8A;
+    border-radius: 5px;
+    top: 50px;
+    right: 100px;
+    z-index: 1;
+}
+.login-title {
+    line-height: 50px;
+    font-weight: normal;
+    color: #666;
+    background: #eee;
+    text-align: center;
+    font-size: 20px;
+}
+.login-container{
+    height: 700px;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+}
+.bg-login{
+    width: 100%;
+    height: 100%;
+}
+.box-card{
+    width: 80%;
+    margin: 30px auto;
+}
+.box-card span{
+    font-size: 25px;
+}
+
+.box-card-small{
+    width: 250px;
+    height: 140px;
+    margin: 30px auto 0;
+}
+.box-card-title{
+    text-align: left;
+    font-size: 16px;
+    font-weight: 800;
+}
+.card-big-font {
+    font-size: 36px;
+    color: #666;
+    line-height: 36px;
+    padding: 5px 0 10px;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    white-space: nowrap;
+    margin-bottom: 5px;
+}
+.el-row label,el-static{
+    font-size: 20px;
+}
+.grid-content {
+    border-radius: 4px;
+    min-height: 36px;
+}
+.el-header {
+    background-color: #B3C0D1;
+    text-align: center;
+    line-height: 60px;
+}
+.el-main {
+    background-color: #E9EEF3;
+    text-align: center;
+}
+body > .el-container {
+    margin-bottom: 40px;
+}
